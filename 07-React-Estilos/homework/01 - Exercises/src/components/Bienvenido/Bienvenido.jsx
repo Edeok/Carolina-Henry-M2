@@ -13,8 +13,8 @@ const alerts = { m1: 'Aprobado', m2: 'En curso' }
 
 export default function Bienvenido () {
   return (
-    <div className={styles.divBienvenidos}>
-      <h1 className={styles.title}>Soy Henry!</h1>
+    <div className={styles.divBienvenido}>
+      <h1 className={styles.title}>Soy Henry!!</h1>
       <h3 className={styles.subtitle}>{studentName}</h3>
       <ul className={styles.unorderedList}>
         {techSkills.map(skill => (

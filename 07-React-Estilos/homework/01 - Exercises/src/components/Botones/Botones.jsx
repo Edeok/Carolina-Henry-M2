@@ -24,6 +24,7 @@ export default class Botones extends React.Component {
         <Buttons onClick={() => window.alert(alerts.m2)}>Módulo 2</Buttons>
       </DivButtons>
     )
+  
   }
 }
 
